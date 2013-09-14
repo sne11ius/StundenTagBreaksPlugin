@@ -26,7 +26,7 @@ public class StundenRemoveBreaksPlugin implements ProcessPlugin {
 		}
 		final StundenRemoveBreaksPluginConfiguration myConfig = (StundenRemoveBreaksPluginConfiguration) configuration;
 		final List<String> breakNames = myConfig.getBreakNames();
-		final WorkPeriod clearedWorkPeriod = new WorkPeriod(workPeriod);
+		final WorkPeriod clearedWorkPeriod = new WorkPeriod();
 		for (final Day oldDay : workPeriod.getDays()) {
 			final List<Entry> clearedEntries = new LinkedList<>();
 			for (final Entry entry : oldDay.getEntries()) {
