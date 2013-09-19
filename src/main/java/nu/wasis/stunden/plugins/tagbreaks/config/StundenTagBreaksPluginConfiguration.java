@@ -1,9 +1,9 @@
-package nu.wasis.stunden.plugins.removebreaks.config;
+package nu.wasis.stunden.plugins.tagbreaks.config;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class StundenRemoveBreaksPluginConfiguration {
+public class StundenTagBreaksPluginConfiguration {
 
 	private List<String> breakNames = new LinkedList<>();
 
