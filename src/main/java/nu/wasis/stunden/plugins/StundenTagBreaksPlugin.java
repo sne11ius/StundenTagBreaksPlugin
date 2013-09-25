@@ -28,8 +28,8 @@ public class StundenTagBreaksPlugin implements ProcessPlugin {
 		for (final Day day : workPeriod.getDays()) {
 			for (final Entry entry : day.getEntries()) {
 				if (breakNames.contains(entry.getProject().getName())) {
-					LOG.debug("Tagging entry: " + entry);
 					entry.setBreak(true);
+					LOG.debug("Tagged entry: " + entry);
 				}
 			}
 		}
