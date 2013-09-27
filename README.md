@@ -1,7 +1,7 @@
 StundenRemoveBreaksPlugin
 =========================
 
-Plugin for https://github.com/sne11ius/stunden that removes breaks.
+Plugin for https://github.com/sne11ius/stunden that tags entries as break based on their project names ("Lunch", "Mittag", "Kelloggs"...)W
 
 Configuration
 =============
